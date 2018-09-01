@@ -1,0 +1,19 @@
+package com.demo.webdriver.launchDriver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SampleChromeLaunch {
+
+	static WebDriver driver;
+	public static void main(String[] args) {
+		 TODO Auto-generated method stub
+		System.setProperty(webdriver.chrome.driver,HGridchromedriver.exe);
+		driver=new ChromeDriver();
+
+		String baseUrl=httpwww.google.com;
+		driver.get(baseUrl);
+
+	}
+
+}
